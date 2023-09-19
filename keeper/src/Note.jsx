@@ -1,10 +1,10 @@
 import React from "react";
-
-function Note()
+import notes from "./tasks.jsx";
+function Note(props)
 {
     return <div className="note">
-        <h1>Title</h1>
-        <p>Content</p>
+        <h1>{props.title}</h1>
+        <p>{props.content}</p>
     </div>
 }
 

@@ -1,0 +1,60 @@
+*
+{
+    text-align: center;
+    background-color: #9DD8E0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: "Montserrat", sans-serif;
+  }
+
+.main
+{
+    /* display: flex;
+    flex-direction: column; */
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+}
+
+.box
+{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.forms
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 250px;
+}
+#name , #password , #button
+{
+     width: 200px;
+     height: 50px;
+     margin: 5px;
+     border-radius: 5px;
+     border: 1px solid white;
+     font-size: large;
+     background-color: #B8D8E0;
+     color:#FAACD1;
+     
+     
+}
+#button
+{
+    background-color: #E1EDF2;
+    cursor: pointer;
+    
+}
+h1{
+    color: white;
+    margin-bottom: 20px;
+}
